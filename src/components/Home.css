@@ -1,0 +1,118 @@
+
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+
+/********************** IMG CSS *********************/
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.column {
+  flex: 10%;
+}
+
+.image_size{
+  height: 400px;
+}
+
+.images{
+  background: linear-gradient(270deg, #cfdef3, #4ca1af, #c4e0e5);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 12s ease infinite;
+  -moz-animation: AnimationName 12s ease infinite;
+  animation: AnimationName 12s ease infinite;
+  padding: 27px;
+}
+
+img{
+  /*border-radius: 100%;*/
+}
+
+.logo_nav{
+  height: 100px;
+}
+
+/* CSS TRANSFORM HELP: https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/ */
+.column:hover{
+  transform: scale(1.1);
+}
+
+.column1:hover{
+  transform: scale(0.99);
+}
+
+.Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333333;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: #3f51b5;
+  color: white; 
+}
+.Collapsible__trigger:after {
+	font-family: 'FontAwesome';
+	content: '↓';
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display: block;
+	transition: transform 300ms; 
+}
+.Collapsible__trigger.is-open:after {
+	transform: rotateZ(180deg); 
+}
+.Collapsible__trigger.is-disabled {
+	opacity: 0.5;
+	background-color: grey; 
+}
+
+
+
+/********************** TEXT CSS *******************/
+
+.choose_campus{
+    font-family: 'Baloo Paaji', cursive;
+    background: $primary-color;
+    display: flex;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+.img{
+  border-radius: 100%;
+}
+
+.nav {
+  overflow: hidden;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+
+.nav a {
+  float:right;
+}
+
+.headerDiv {
+  padding-bottom: 1%;
+  padding-left: 3%;
+}
+
+h1 {
+  font-size: 4em;
+  animation:
+    typing 3.5s steps(40, end)
+}
+
+p {
+  font-size: 1.5em;
+}

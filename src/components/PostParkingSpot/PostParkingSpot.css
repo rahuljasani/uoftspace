@@ -1,0 +1,45 @@
+/********************** IMG CSS *********************/
+
+
+/********************** TEXT CSS *******************/
+
+.form {
+  display: table;
+  width: 500px;
+  padding: 50px;
+  background-color: #EBF5FB;
+  transition: box-shadow .3s;
+
+  /* CENTERING HELP: https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* for box shadow rgba colour: https://codepen.io/ovdojoey/pen/BomKyZ */
+.form:hover {
+  box-shadow: 0 0 50px #81c1fb;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.break {
+  padding-top: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.whitespace-wrap {
+  white-space: pre-wrap;
+}
